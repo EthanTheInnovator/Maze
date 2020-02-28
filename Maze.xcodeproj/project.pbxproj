@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92341AA23A1595E0044EA5A /* CGVectorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92341A923A1595E0044EA5A /* CGVectorExtension.swift */; };
+		E956B29023A1392C00D08217 /* JoystickNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E956B28F23A1392C00D08217 /* JoystickNode.swift */; };
+		E98741EA23A28C6A007E8E8E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98741E923A28C6A007E8E8E /* UIViewExtension.swift */; };
 		E99AC348239FD15C00C96366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AC347239FD15C00C96366 /* AppDelegate.swift */; };
 		E99AC34A239FD15C00C96366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AC349239FD15C00C96366 /* SceneDelegate.swift */; };
 		E99AC34C239FD15C00C96366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AC34B239FD15C00C96366 /* ViewController.swift */; };
 		E99AC34F239FD15C00C96366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99AC34D239FD15C00C96366 /* Main.storyboard */; };
 		E99AC351239FD15C00C96366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99AC350239FD15C00C96366 /* Assets.xcassets */; };
 		E99AC354239FD15C00C96366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99AC352239FD15C00C96366 /* LaunchScreen.storyboard */; };
+		E99AC35C239FD26800C96366 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AC35B239FD26800C96366 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E92341A923A1595E0044EA5A /* CGVectorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVectorExtension.swift; sourceTree = "<group>"; };
+		E956B28F23A1392C00D08217 /* JoystickNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickNode.swift; sourceTree = "<group>"; };
+		E98741E923A28C6A007E8E8E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E99AC344239FD15C00C96366 /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99AC347239FD15C00C96366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E99AC349239FD15C00C96366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		E99AC350239FD15C00C96366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99AC353239FD15C00C96366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99AC355239FD15C00C96366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99AC35B239FD26800C96366 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				E99AC347239FD15C00C96366 /* AppDelegate.swift */,
 				E99AC349239FD15C00C96366 /* SceneDelegate.swift */,
 				E99AC34B239FD15C00C96366 /* ViewController.swift */,
+				E99AC35B239FD26800C96366 /* GameScene.swift */,
+				E98741E923A28C6A007E8E8E /* UIViewExtension.swift */,
+				E92341A923A1595E0044EA5A /* CGVectorExtension.swift */,
+				E956B28F23A1392C00D08217 /* JoystickNode.swift */,
 				E99AC34D239FD15C00C96366 /* Main.storyboard */,
 				E99AC350239FD15C00C96366 /* Assets.xcassets */,
 				E99AC352239FD15C00C96366 /* LaunchScreen.storyboard */,
@@ -140,6 +152,10 @@
 			files = (
 				E99AC34C239FD15C00C96366 /* ViewController.swift in Sources */,
 				E99AC348239FD15C00C96366 /* AppDelegate.swift in Sources */,
+				E956B29023A1392C00D08217 /* JoystickNode.swift in Sources */,
+				E99AC35C239FD26800C96366 /* GameScene.swift in Sources */,
+				E98741EA23A28C6A007E8E8E /* UIViewExtension.swift in Sources */,
+				E92341AA23A1595E0044EA5A /* CGVectorExtension.swift in Sources */,
 				E99AC34A239FD15C00C96366 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
